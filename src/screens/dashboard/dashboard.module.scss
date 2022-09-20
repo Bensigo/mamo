@@ -1,0 +1,102 @@
+.table_and_filters{
+    // border: 50px solid #F3F5F9;
+    padding: 50px;
+    background: #f3f5f9;
+    @media screen and (max-width: 480px) {
+        padding: 0;
+    }
+    
+}
+.table_container {
+    background: white;
+    border-radius: 16px;
+    @media screen and (max-width: 480px) {
+        border: none;
+        background: inherit;
+    }
+}
+
+
+.nav_header_container {
+    padding: 32px 50px;
+    background: white;
+}
+.nav_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E5E9F0;
+    @media screen and (max-width: 800px) {
+       border: none;
+    }
+}
+.avatar {
+    background: #E7E7FF;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #3333FF;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 12px 12px;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+
+}
+
+.nav_header_text_container_2 {
+    color: #525A67;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    > div > h2 {
+        color: #080826;
+        margin-bottom: 12px;
+        font-size: 32px;
+        font-weight: bold;
+
+    }
+}
+
+.download_csv {
+    padding: 8px 24px;
+    border: 1px solid #C7CEDC;
+    margin-left: 8px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #080826;
+    height: 40px;
+    > span {
+        margin: 2px;
+    }
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+.nav_header_text_container {
+    color: #9BA1B3;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    > div {
+        padding: 5px;
+        text-transform: capitalize;
+    }
+}
